@@ -1,6 +1,20 @@
-# Power-Tracking
+# Power-And-Solar-Tracking
 
-In diesem Artikel möchte ich zeigen, wie ihr euren Stromverbrauch und potentielle Stromerzeugung durch z.B. eine Solaranlage messen und visuell darstellen könnt. Ich verwende in meinem Aufbau zwei Smart-Meter mit MQTT Funktion. Aufgrund der großen Anzahl an Anleitungen im Internet, werde ich keine Einzelschrittanweisungen geben, sondern mehr den Gesamtaufbau darstellen und nützliche Links beifügen. In meinem Setup messe ich sowohl den Gesamtverbrauch der Wohnung, als auch die abgegebene Energie und Leistung meiner Balkon-Solaranlage.
+Wir haben nun seit gut 10 Monaten eine Balkon-Solaranlage und Ich möchte hier meine Erfahrungen hinsichtlich des Ertrages teilen.
+
+Um Bilanz ziehen zu können, messe ich seit Installation unseren Hausstrom, sowie den Solarertrag und habe die Messwerte über die Jahreszeiten genau untersucht. Wir haben an unserem Balkon zwei flexible 310 W Solarmodule, sowie einen Hoymiles Wechselrichter installiert. Die Module haben eine 0°-Süd Ausrichtung. Das bedeutet, dass der Ertrag zur Mittagszeit sein Maximum erreicht.
+
+![Layout](readme/Solaranlage.jpg)
+
+Von Februar bis Dezember haben wir eine solare Energiemenge von 335 kWh umgesetzt, was bei voller Nutzung und unserem Stromvertrag einem finanziellen Gegenwert von ca. 140 € entspricht bzw. entsprechen würde. Wie auf der folgenden Abbildung dargestellt, können wir die Spitzenleistung selten nutzen und typischerweise bekommt man die Kleinstmengen einer Balkonsolar-Einspeisung nicht vergütet. Das bedeutet, dass die effektive Einsparung deutlich geringer ausfällt. Rein energetisch betrachtet, zeigen die Daten jedoch, dass wir 16 % unserer verbrauchten el. Energie selbst erzeugt haben. Das hat ehrlich gesagt meine Erwartungen übertroffen.
+
+Ich habe im unter Teil der Abbildung vier typische Wetterszenarien mit zugehörigen Messwerten dargestellt. Betrachtet man gegenübergestellt den Netzbezug, so ist eine Leistung von > 250 W selten erforderlich.
+
+![Layout](readme/Überblick.jpg)
+
+# Messaufbau
+
+Von hier an möchte ich noch beschreiben, wie ich die Daten aufgezeichnet habe, um die gemachten Erfahrungen zu teilen. Ich verwende in meinem Aufbau zwei Smart-Meter mit MQTT Funktion. Aufgrund der großen Anzahl an Anleitungen im Internet, werde ich keine Einzelschrittanweisungen geben, sondern mehr den Gesamtaufbau darstellen und nützliche Links beifügen. In meinem Setup messe ich sowohl den Gesamtverbrauch der Wohnung, als auch die abgegebene Energie und Leistung meiner Balkon-Solaranlage.
 
 ## Hardwareaufbau | Layout
 
